@@ -33,6 +33,16 @@
       "n": { "desde": 1, "hasta": 1025, "inicio": 25 },
       "b": { "etq": "Otro" },
       "ttl": 86400
+    },
+    {
+      "id": "rym", "nombre": "Rick and Morty", "tipo": "api",
+      "url": "https://rickandmortyapi.com/api/character/{n}",
+      "titulo": "{name}",
+      "imagen": "{image}",
+      "list": [["Especie", "{species}"], ["Estado", "{status}"], ["Origen", "{origin.name}"]],
+      "n": { "desde": 1, "hasta": 826, "inicio": 1 },
+      "b": { "etq": "Otro" },
+      "ttl": 86400
     }
   ]
 }
