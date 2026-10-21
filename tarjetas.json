@@ -38,7 +38,7 @@
       "id": "rym", "nombre": "Rick and Morty", "tipo": "api",
       "url": "https://rickandmortyapi.com/api/character/{n}",
       "titulo": "{name}",
-      "imagen": "{image}",
+      "imagen": "https://wsrv.nl/?url={image}&w=96&h=96&fit=contain&output=png&filt=greyscale",
       "list": [["Especie", "{species}"], ["Estado", "{status}"], ["Origen", "{origin.name}"]],
       "n": { "desde": 1, "hasta": 826, "inicio": 1 },
       "b": { "etq": "Otro" },
