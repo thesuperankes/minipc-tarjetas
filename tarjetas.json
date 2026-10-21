@@ -28,9 +28,7 @@
       "titulo": "#{id} {name|cap}",
       "imagen": "{sprites.front_default}",
       "list": [
-        ["Tipo", "{types.0.type.name|cap}"],
-        ["Peso", "{weight/10} kg"],
-        ["Alto", "{height/10} m"]
+        ["Tipo", "{types.0.type.name|cap}"]
       ],
       "n": { "desde": 1, "hasta": 1025, "inicio": 25 },
       "b": { "etq": "Otro" },
