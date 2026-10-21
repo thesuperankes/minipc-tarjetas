@@ -6,6 +6,111 @@
       "id": "meta",
       "titulo": "Meta viaje",
       "tipo": "hero",
+      "hero": {
+        "valor": "62%",
+        "etq": "Ahorrado de 5.000.000",
+        "sub": "Faltan 1.900.000"
+      }
+    },
+    {
+      "id": "cuentas",
+      "titulo": "Cuentas ejemplo",
+      "tipo": "list",
+      "list": [
+        [
+          "Ahorros",
+          "12.345.678"
+        ],
+        [
+          "Nómina",
+          "1.204.500"
+        ],
+        [
+          "Efectivo",
+          "350.000"
+        ],
+        [
+          "TC Visa",
+          "-2.150.000",
+          1
+        ]
+      ],
+      "b": {
+        "etq": "Ocultar",
+        "local": "ocultar"
+      }
+    },
+    {
+      "id": "pokedex",
+      "nombre": "Pokédex",
+      "tipo": "api",
+      "url": "https://pokeapi.co/api/v2/pokemon/{n}/",
+      "titulo": "#{id} {name|cap}",
+      "imagen": "{sprites.front_default}",
+      "list": [
+        [
+          "Tipo",
+          "{types.0.type.name|cap}"
+        ],
+        [
+          "Peso",
+          "{weight/10} kg"
+        ],
+        [
+          "Alto",
+          "{height/10} m"
+        ]
+      ],
+      "n": {
+        "desde": 1,
+        "hasta": 1025,
+        "inicio": 25
+      },
+      "b": {
+        "etq": "Otro"
+      },
+      "ttl": 86400
+    },
+    {
+      "id": "rym",
+      "nombre": "Rick and Morty",
+      "tipo": "api",
+      "url": "https://rickandmortyapi.com/api/character/{n}",
+      "titulo": "{name}",
+      "imagen": "https://wsrv.nl/?url={image}&w=96&h=96&fit=contain&output=png&filt=greyscale",
+      "list": [
+        [
+          "Especie",
+          "{species}"
+        ],
+        [
+          "Estado",
+          "{status}"
+        ],
+        [
+          "Origen",
+          "{origin.name}"
+        ]
+      ],
+      "n": {
+        "desde": 1,
+        "hasta": 826,
+        "inicio": 1
+      },
+      "b": {
+        "etq": "Otro"
+      },
+      "ttl": 86400
+    }
+  ]
+}{
+  "v": 1,
+  "ttl": 600,
+  "tarjetas": [
+    {
+      "id": "meta",
+      "titulo": "Meta viaje",
+      "tipo": "hero",
       "hero": { "valor": "62%", "etq": "Ahorrado de 5.000.000", "sub": "Faltan 1.900.000" }
     },
     {
