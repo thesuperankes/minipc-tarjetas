@@ -104,13 +104,8 @@
     },
     {
       "tipo": "juego",
-      "nombre": "Pinball",
-      "url": "https://raw.githubusercontent.com/thesuperankes/minipc-tarjetas/refs/heads/main/juegos/pinball.lua"
-    },
-    {
-      "tipo": "juego",
-      "nombre": "Ajedrez",
-      "url": "https://raw.githubusercontent.com/thesuperankes/minipc-tarjetas/refs/heads/main/juegos/ajedrez.lua"
+      "nombre": "Demo",
+      "url": "https://raw.githubusercontent.com/thesuperankes/minipc-tarjetas/refs/heads/main/juegos/demo.lua"
     }
   ]
 }
