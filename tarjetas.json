@@ -104,8 +104,8 @@
     },
     {
       "tipo": "juego",
-      "nombre": "Medidor",
-      "url": "https://raw.githubusercontent.com/thesuperankes/minipc-tarjetas/refs/heads/main/juegos/medidor.lua"
+      "nombre": "Infero",
+      "url": "https://raw.githubusercontent.com/thesuperankes/minipc-tarjetas/refs/heads/main/juegos/infierno.lua"
     }
   ]
 }
